@@ -86,10 +86,10 @@ const Navbar = () => {
 
           {
             user?
-            <button onClick={handleSignOut} className="text-gray-700 font-medium hover:text-indigo-500">Sign Out</button>:
+            <button onClick={handleSignOut} className="block text-gray-700 font-medium hover:text-indigo-500">Sign Out</button>:
             <>
-            <Link to="/login" className="text-gray-700 font-medium hover:text-indigo-500">Login</Link>
-            <Link to="/signup" className="text-gray-700 font-medium hover:text-indigo-500">Sign Up</Link>
+            <Link to="/login" className="block text-gray-700 font-medium hover:text-indigo-500">Login</Link>
+            <Link to="/signup" className="block text-gray-700 font-medium hover:text-indigo-500">Sign Up</Link>
             </>
           }
 
